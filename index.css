@@ -94,39 +94,44 @@ button{
     margin: 10px;
 }
 
-#lite-container{
-    
-    width: 100%;
-    height: 100%;
-    margin: none;
-    padding: 3px;
-    border: solid;
-  
-    
-}
-.lite-bg{
+.box2{
     background: #f9faf8;
-    margin-top: 18em;
+    justify-content: center;
 }
+#lite-container{
+justify-content: center;
+   display: flex;
+    flex-direction: row;
+    padding: 3px;
+    margin: 0 2.5em;    
+    flex-wrap: wrap;
+    
+}
+
 .lite-content{
-    padding-top: 1em;
+    display: flex;
+    padding: 1em;
+    flex-wrap: wrap;
+    margin: 5px;
+    justify-content: center;
 }
 .random-info{
-    color: #f0f6ff;
+    color: #117a81;
     text-align: center;
     font-size: 30px;
     padding: 25px;
 }
 .img-container{
-    display: flex;
+    display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:center;
     margin: 0 2.5em;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    align-items: center;
 }
  .random-img{
     display: flex;
-   
+   justify-content: center;
     width:100%;
     height: 100%;
     
@@ -135,9 +140,9 @@ button{
     width: 12em;
     height: 14em;
     object-fit: cover;
-    border: 0.3em solid rgb(243, 2, 2);
+    border: 0.3em solid rgb(44, 42, 42);
     border-radius: 10px;
     box-shadow: 0 10px 30px black;
     transition: 0.3s;
-    margin: -0.5em -1em -1em -1em;
+    margin: 0.5em 1em 1em 1em;
 }
