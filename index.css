@@ -110,6 +110,7 @@ button{
     background: rgba(255, 255, 255, 0.575);
     justify-content: center;
     height: auto;
+   
     
 }
 #lite-container{
@@ -118,10 +119,11 @@ justify-content: center;
     flex-direction: row;
     padding: 3px;
  
-    margin: 0 2.5em;   
-    flex-wrap: wrap;
+   
+   
     
 }
+
 
 .lite-content{
   display: flex;
