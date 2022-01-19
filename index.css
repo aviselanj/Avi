@@ -127,10 +127,10 @@ justify-content: center;
 
 
 .lite-content{
-  display: flex;
-    padding: 2em;
+  display:flex;
+    /*padding: 2em;*/
     flex-wrap: wrap;
-    margin: 1em;
+   /* margin: 1em;*/
     justify-content: center;
     flex-direction: row;
 }
