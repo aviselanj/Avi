@@ -3,6 +3,7 @@ html{
 }
 body{
     margin: 0;
+    background-image: url("/image/pexels-nohk-1735658.jpg");
 }
 #background{
     position: fixed;
