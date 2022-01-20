@@ -5,7 +5,7 @@ body{
     margin: 0;
     background-image: url("/image/Rainbow_Nebula_4K_Motion_Background.mp4;")"
 }
-bg-container{
+/*bg-container{
   position: fixed;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
@@ -29,7 +29,7 @@ bg-video{
     left: 0;
     filter: brightness(1.2);
     z-index: -2;
-}
+}*/
 .header{
     display: flex;
     
@@ -56,11 +56,10 @@ bg-video{
     width: auto;
     height: 100%;
     margin: none;
-    padding-top: 90px;
+    padding-top: 9em;
     color:#f9faf8;
     font-size: 48px;
-    background: rgba(0, 0,0, 0.8)
-    
+    background: rgba(0, 0,0, 0.8);
    
 }
 img{
@@ -75,21 +74,21 @@ img{
     display:flex;
     height: 100%;
     font-size: 18px;
-    padding: 5px;
-    
+    padding: 5em;
+    display:contents
 }
 #box1{
-    display: block;
+    /*display: block;*/
     height: 100%;
     width: 50%;
     margin-right: 30px;
     align-items: center;
-    justify-content: right;
+    /*justify-content: right;*/
     padding: 17px;
 }
 
 
-#matrix-girl{
+/*#matrix-girl{
     display: flex; 
    display: flex;
   padding: 17px;
@@ -100,7 +99,7 @@ img{
     max-height: 70%;
     max-width: 200%;
     
-}
+}*/
     
 .hero-title{
     color:#f9faf8;
@@ -125,17 +124,14 @@ button{
 .box2{
     background: rgba(255, 255, 255, 0.575);
     justify-content: center;
-    height: auto;
-   
-    
+    background-size: contain;
+    display:flex;
+    align-items: center;
+    width: auto;
+   padding-top: 12em;
 }
 #lite-container{
-justify-content: center;
-   display: flex;
-    flex-direction: row;
-    padding: 3px;
- 
-   
+display: flex;
    
     
 }
@@ -143,50 +139,51 @@ justify-content: center;
 
 .lite-content{
   display:flex;
-    /*padding: 2em;*/
-    flex-wrap: wrap;
-   /* margin: 1em;*/
-    justify-content: center;
-    flex-direction: row;
+  /*position: absolute;*/
+  flex-wrap: nowrap;
+ /*flex-direction: row;*/
 }
 .random-info{
     color: #161b1b;
     text-align: center;
     font-size: 30px;
     padding: 25px;
+    top: 60%;
+    left: 35%;
+    position: absolute;
+    
 }
 .img-container{
     display:flex;
-    flex-direction: row;
+    flex-direction: ;
     justify-content:center;
     margin: 0 2.5em;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
 }
- .random-img{
+ /*.random-img{
     display: flex;
    justify-content: center;
-    width:100%;
-    height: 100%;
+    width:80%;
+    height: 80%;
     flex-wrap: wrap;
     
 }
 .tenor-gif-embed{
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     display: flex;
     object-fit: cover;
-}
+}*/
 .img1{
-    width: 100%;
-   height: 100%;
-    object-fit: cover;
+    width: 30%;
+    height: 25%;
+    /*object-fit: cover;*/
     border-radius: 10px;
     box-shadow: 0 10px 30px black;
     transition: 0.3s;
-    margin: 0.5em 1em 1em 1em;
-    padding: 6em;
-
+    padding: 2em;
+    margin: 1em
 }
 .sub-text{
     color:#03163a;
@@ -201,7 +198,7 @@ justify-content: center;
   min-height: 100%;
 }
 
-/* Add some content at the bottom of the video/page */
+
 .content {
   position: relative;
   bottom: 0;
