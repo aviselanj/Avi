@@ -3,7 +3,22 @@ html{
 }
 body{
     margin: 0;
-    background-image: url("/image/pexels-nohk-1735658.JPG");
+    background-image: url("/image/Rainbow_Nebula_4K_Motion_Background.mp4;")"
+}
+bg-container{
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+bg-video{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 #background{
     position: fixed;
@@ -34,7 +49,7 @@ body{
 #header-logo{
     color: #f9faf8;
     font-size: 24px;
-
+   
 }
 #box-container{
     display: flex;
@@ -176,5 +191,23 @@ justify-content: center;
 .sub-text{
     color:#03163a;
     font-size: 28px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: relative;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
 }
 
