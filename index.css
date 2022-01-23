@@ -112,7 +112,7 @@ img{
                   url("/image/Photo\ on\ 5-14-20\ at\ 12.08\ PM.jpg");
 }
 .random-info{
-    color: #ccf7f7;
+    color: #8efa4f;
     text-align: center;
     font-size: 30px;
     padding: 25px;
@@ -150,9 +150,8 @@ img{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .sub-text{
-    color:#03163a;
-    font-size: 28px;
-    
+    color: black;
+    font-size: 25px;
 }
 
 
