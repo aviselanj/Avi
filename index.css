@@ -159,15 +159,25 @@ img{
     font-size: 29px;
 }
 .box3{
-   background: rgba(50, 50, 93, 0.801);
-    padding: 50px;
+   background-image: url("https://freerangestock.com/thumbnail/47259/businessman-holding-a-smartphone-with-information-technology-ico.jpg");
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(1.1);
+    height: 100%;
+    color: #ff0707;
+}
+   /* padding: 50px;
     height: 370px;
     display: flex;
     align-content: center;
     justify-content: center;
     padding-top: 300px;
-   color:#f9faf8;
-}
+   color:#f9faf8;*/
+
 quote{
     font-size: 36px;
     font-style: italic;
