@@ -109,7 +109,7 @@ img{
     position: relative;
     margin-top: 0px;
     background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
-                  url("/image/selfie2.jpg");
+                  url("https://cdn.pixabay.com/photo/2018/09/18/11/19/artificial-intelligence-3685928_1280.png");
 }
 .random-info{
     color: #8efa4f;
