@@ -19,19 +19,19 @@ video {
   left: 0;
 }
 
-
-bg-container{
-  grid-auto-rows: 1fr;
-  bottom: 0;
-/*background: rgba(black, 0.66);*/
-  position: relative;
-  padding: 1rem;
-  height: 100%;
-  
+#background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    filter: brightness(1.2);
+    z-index: -2;
 }
+
 header{
-    position: relative;
-  height: 100%;
+    position: static;
   text-align: center;
   display: flex;
   align-items: center;
@@ -159,19 +159,20 @@ img{
     font-size: 29px;
 }
 .box3{
-   /* background-image: linear-gradient(rgba(243, 239, 237, 0.5), rgba(0, 174, 255, 0.5)),url("https://videos.clipstock.com/s3fs-public/previews/319-0039-11-01-preview.mp4?VersionId=FOm5x.Enb6qTmG9S8lA8xCJyq3JTno5o");*/
+   background: rgba(50, 50, 93, 0.801);
     padding: 50px;
     height: 370px;
     display: flex;
     align-content: center;
     justify-content: center;
     padding-top: 300px;
-    background:#e5e7eb;
+   color:#f9faf8;
 }
 quote{
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
+
 }
 .author{
     float: right;
@@ -180,7 +181,6 @@ a{
     color: rgb(247, 4, 4);
 }
 .box4{
-    background: #f9faf8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -228,7 +228,8 @@ a{
 footer{
     display: flex;
     justify-content: center;
-    background-image: url();
+    background: rgba(50, 50, 93, 0.664);
+    color: #e5e7eb;
 }
 
 
