@@ -139,7 +139,7 @@ img{
         flex-wrap: wrap;
     }
     .img1{
-        flex-basis: 50%;
+        flex-basis: 25%;
     }
 }
 .center-gif{
@@ -150,8 +150,8 @@ img{
 }
 .img1{
     margin: 20px;
-  flex-basis: 100%;
-  padding: 10px;
+  flex-basis: 50%;
+  padding: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .sub-text{
