@@ -19,6 +19,7 @@ video {
   left: 0;
 }
 
+
 #background {
     position: fixed;
     width: 100%;
@@ -31,11 +32,12 @@ video {
 }
 
 .header{
-    position: static;
+  position:sticky;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: rgba(0, 0, 0, 0.658);
 }
 .menu{
     padding: 6px;
@@ -46,7 +48,7 @@ video {
     padding: 2px;
     color: #e5e7eb;
     font-size: 18px;
-    background: rgba(0, 0, 0, 0.3);
+    
 }
 a:link {
   color: #f9faf8;
@@ -146,7 +148,9 @@ img{
     background-image: url("https://cdn.pixabay.com/photo/2016/05/08/14/58/icon-1379228__480.png");
     background-size: contain;
 }
-
+#gh-projects{
+    color:#ff0707;
+}
 .random-info{
     color: #ff0707;
     text-align: center;
