@@ -30,7 +30,7 @@ video {
     z-index: -2;
 }
 
-header{
+.header{
     position: static;
   text-align: center;
   display: flex;
@@ -47,6 +47,21 @@ header{
     color: #e5e7eb;
     font-size: 18px;
     background: rgba(0, 0, 0, 0.3);
+}
+a:link {
+  color: #f9faf8;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(219, 211, 233);
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 #header-logo{
@@ -158,7 +173,7 @@ img{
     color: rgb(206, 20, 20);
     font-size: 29px;
 }
-.box3{
+#box3{
    background-image: url("https://freerangestock.com/thumbnail/47259/businessman-holding-a-smartphone-with-information-technology-ico.jpg");
     background-size: cover;
     object-fit: cover;
@@ -169,6 +184,10 @@ img{
     filter: brightness(1.1);
     height: 100%;
     color: #ff0707;
+}
+#container3{
+    width: 100%;
+    height: 100%;
 }
    /* padding: 50px;
     height: 370px;
