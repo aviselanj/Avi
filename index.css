@@ -252,7 +252,7 @@ a{
     margin: 30px;
     border-radius: 9px;
     align-items: center;
-    height: auto;
+    height: 100%;
 }
 .box4-div1{
     color:#f9faf8;
