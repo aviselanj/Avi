@@ -145,16 +145,16 @@ img{
     width: 100%;
     position: relative;
     margin-top: 0px;
-    background-image: url("https://cdn.pixabay.com/photo/2016/05/08/14/58/icon-1379228__480.png");
-    background-size: contain;
+    background-image: url("https://images.pexels.com/photos/3137073/pexels-photo-3137073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size:cover;
 }
 #gh-projects{
-    color:#ff0707;
+    color:#ff4242;
 }
 .random-info{
-    color: #ff0707;
+    color: #ff182b;
     text-align: center;
-    font-size: 30px;
+    font-size: 39px;
     padding: 25px;
 }
 
@@ -190,8 +190,8 @@ img{
   box-shadow: rgba(23, 23, 36, 0.116) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.658) 0px 18px 36px -18px inset;
 }
 .sub-text{
-    color: rgb(206, 20, 20);
-    font-size: 29px;
+    color: rgb(235, 11, 11);
+    font-size: 36px;
 }
 #box3{
    background-image: url("https://freerangestock.com/thumbnail/47259/businessman-holding-a-smartphone-with-information-technology-ico.jpg");
