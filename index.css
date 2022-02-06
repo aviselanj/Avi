@@ -1,5 +1,5 @@
 html {
-   min-width: 500px;
+   min-width: 490px;
    height: 100%;
     overflow-x: hidden;
 }
@@ -38,6 +38,8 @@ video {
   align-items: center;
   justify-content: center;
   background: rgba(0, 0, 0, 0.658);
+  padding: 10px;
+  margin: 10px;
 }
 .menu{
     padding: 6px;
